@@ -1,0 +1,18 @@
+.title{
+
+    .edit-icon{
+        opacity: 0;
+        transition: opacity 300ms ease-in-out;
+        cursor: pointer;
+    }
+    &:hover{
+        .edit-icon{
+            opacity: 1;
+            
+        }
+    }
+
+    .form-control{
+        height: 50px;
+    }
+}
